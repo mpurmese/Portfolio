@@ -4,3 +4,8 @@
 .custom-nav:hover {
     color: #C0C2C4 !important;
 }
+.custom-nav:active {
+    color: #149DDD !important; 
+  }
+  
+

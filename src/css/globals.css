@@ -12,9 +12,18 @@ hr {
 .bg-custom{
   background-color: #040B14;
 }
+.bg-custom2{
+  background-color: #F4FAFD;
+}
+.text-custom{
+  color: #149DDD;
+}
+
+h1{
+  padding-top: 50px;
+}
 
 .container-custom{
-  padding-top: 10px;
   padding-left: 18%;
   height: 100vh;
 }

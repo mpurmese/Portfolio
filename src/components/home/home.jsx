@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import "@/app/css/home.css";
+import "@/css/home.css";
+import AnimatedTextWord from './animatedTextWord';
 
 const Home = () => {
   return (
@@ -9,6 +10,9 @@ const Home = () => {
         <Col className='text-light'>
           <h1>Mehmet Pürmeşe</h1>
           <hr />
+          <div className="container h-screen mx-auto flex flex-col items-center justify-center">
+          <AnimatedTextWord text="I'm Junıor Full Stack Developer" />
+          </div>
         </Col>
       </Row>
     </Container>
