@@ -1,0 +1,27 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+hr {
+  width: 100px; /* Uzunluğu artır */
+  height: 5px; /* Kalınlığı artır */
+  background-color: #149DDD;
+  border: none;
+  margin-top: 0px;
+  border-radius: 2px; /* Kenarları yuvarlatır */
+}
+
+.bg-custom{
+  background-color: #040B14;
+}
+
+.container-custom{
+  padding-top: 10px;
+  padding-left: 18%;
+  height: 100vh;
+}
+
+@media (max-width: 991px) { 
+  .container-custom {
+    padding: 15px;
+    height: 100vh;
+  }
+}

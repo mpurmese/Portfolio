@@ -1,0 +1,6 @@
+.custom-nav {
+    text-decoration: none !important;
+}
+.custom-nav:hover {
+    color: #C0C2C4 !important;
+}
