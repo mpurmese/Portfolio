@@ -16,10 +16,10 @@ const AbountComponent = () => {
             </Col>
         </Row>
         <Row className='mt-4 align-items-center'>
-            <Col className='col-4'>
+            <Col className='col-12 col-lg-4'>
                 <AbountImage/>
             </Col>
-            <Col className='col-8'>
+            <Col className='col-12 mt-4 col-lg-8'>
                 <AbountTexts/>
             </Col>
         </Row>

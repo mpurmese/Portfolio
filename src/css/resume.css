@@ -1,0 +1,36 @@
+/* Zaman çizelgesi yapısı */
+.timeline {
+    position: relative;
+    margin: 20px 0;
+    padding-left: 40px;
+  }
+   
+  /* Dikey çizgi */
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: lightblue;
+  }
+  
+  /* Nokta yuvarlak */
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: -8px; /* Yuvarlağın tam çizgiye oturması için negatif değer */
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    border: 4px solid lightblue;
+  }
+  .resume-model{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  
+  

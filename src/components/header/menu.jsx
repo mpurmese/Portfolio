@@ -16,7 +16,7 @@ const Menu = () => {
               <Nav className="flex-column gap-3 fs-5">
                 <Link href="/" className='d-flex align-items-center gap-3 custom-nav text-light'><BsHouse /> Anasayfa</Link>
                 <Link href="/abount" className='d-flex align-items-center gap-3 custom-nav text-light'><BsPersonSquare /> Hakkımda</Link>
-                <Link href="" className='d-flex align-items-center gap-3 custom-nav text-light'><BsFileEarmarkRichtext /> Cv</Link>
+                <Link href="/resume" className='d-flex align-items-center gap-3 custom-nav text-light'><BsFileEarmarkRichtext /> Cv</Link>
                 <Link href="" className='d-flex align-items-center gap-3 custom-nav text-light'><BsImages /> Portfolio</Link>
                 <Link href="" className='d-flex align-items-center gap-3 custom-nav text-light'><BsBook /> Yazı</Link>
                 <Link href="" className='d-flex align-items-center gap-3 custom-nav text-light'><BsEnvelopeAt /> İletişim</Link>
