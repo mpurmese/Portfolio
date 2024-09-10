@@ -1,0 +1,30 @@
+.zoom {
+    left: 40% ;
+    top: 46%;
+  }
+
+.link {
+    left: 50% ;
+    top: 46%;
+
+  }
+
+  /* Kart üzerindeki overlay karanlık zemin ve içeriklerin başlangıç durumu */
+.portfolio-card .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    visibility: hidden;
+  }
+  
+  /* Hover olayı ile karanlık zemin ve içerikler görünür olacak */
+  .portfolio-card:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* İkonlar ve E-Ticaret metni ortalanmış şekilde */
+  .overlay .d-flex {
+    height: 100%;
+  }
+  

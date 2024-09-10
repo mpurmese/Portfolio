@@ -17,9 +17,9 @@ const Menu = () => {
                 <Link href="/" className='d-flex align-items-center gap-3 custom-nav text-light'><BsHouse /> Anasayfa</Link>
                 <Link href="/abount" className='d-flex align-items-center gap-3 custom-nav text-light'><BsPersonSquare /> Hakkımda</Link>
                 <Link href="/resume" className='d-flex align-items-center gap-3 custom-nav text-light'><BsFileEarmarkRichtext /> Cv</Link>
-                <Link href="" className='d-flex align-items-center gap-3 custom-nav text-light'><BsImages /> Portfolio</Link>
-                <Link href="" className='d-flex align-items-center gap-3 custom-nav text-light'><BsBook /> Yazı</Link>
-                <Link href="" className='d-flex align-items-center gap-3 custom-nav text-light'><BsEnvelopeAt /> İletişim</Link>
+                <Link href="/portfolio" className='d-flex align-items-center gap-3 custom-nav text-light'><BsImages /> Portfolio</Link>
+                <Link href="/articles" className='d-flex align-items-center gap-3 custom-nav text-light'><BsBook /> Yazı</Link>
+                <Link href="/contact" className='d-flex align-items-center gap-3 custom-nav text-light'><BsEnvelopeAt /> İletişim</Link>
               </Nav>
           </Col>
         </Row>
