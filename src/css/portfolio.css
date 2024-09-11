@@ -1,10 +1,12 @@
 .zoom {
+    cursor: pointer;
     left: 40% ;
     top: 46%;
   }
 
 .link {
-    left: 50% ;
+    cursor: pointer;
+    left: 52% ;
     top: 46%;
 
   }
@@ -27,4 +29,17 @@
   .overlay .d-flex {
     height: 100%;
   }
-  
+
+  .zoom:hover{
+    color: #149DDD !important;
+  }
+  .link:hover{
+    color: #149DDD !important;
+  }
+.portfolio-btn{
+    background-color: rgb(255, 255, 255) !important;
+    border-color: white !important;
+  }
+.portfolio-btn:hover{
+    color: #149DDD !important;
+  }

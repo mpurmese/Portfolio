@@ -1,0 +1,29 @@
+.icon-container:hover{
+color: #149DDD !important;
+
+}
+.icon-container{
+    background-color: #149DDD;
+    padding: 17px;
+    border-radius: 50%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.icon-container:hover{
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 50%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+  
