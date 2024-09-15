@@ -1,0 +1,13 @@
+.breadcrumb a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: small;
+}
+/* Carousel previous and next arrows (black color) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}

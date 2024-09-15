@@ -27,10 +27,9 @@ h1{
 }
 
 .container-custom{
-  padding-left: 18%;
+  padding-left: 17.4%;
   height: 100vh;
 }
-
 @media (max-width: 991px) { 
   .container-custom {
     padding: 15px;
