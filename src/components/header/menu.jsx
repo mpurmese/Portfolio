@@ -9,7 +9,7 @@ import "@/css/header.css"
 
 const Menu = () => {
   return (
-    <Navbar variant="dark mt-4 ms-3 ">
+    <Navbar variant="dark mt-4 ms-3">
       <Container>
         <Row>
           <Col>

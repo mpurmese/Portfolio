@@ -11,18 +11,18 @@ import "@/css/yaziDetail.css"
 const YaziDetailComponent = () => {
   return (
     <Container fluid className='container-custom' >
-        <Row className='bg-dark deneme text-light py-3' >
-            <Col className='col-12 col-lg-6 text-center text-lg-start'> 
-              <h5>WordPress Nedir? SEO Dostu Bir İçerik Yönetim Sistemi</h5>
-            </Col>
-            
-            <Col className='col-12 col-lg-6 text-center text-lg-end'> 
-              <Breadcrumb>
-                <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-                <Breadcrumb.Item>/</Breadcrumb.Item>
-                <Breadcrumb.Item>WordPress Nedir? SEO Dostu Bir İçerik Yönetim Sistemi</Breadcrumb.Item>
-              </Breadcrumb>            
-            </Col>
+        <Row className='bg-dark deneme text-light py-3'>
+          <Col className='col-12 col-lg-6 text-center text-lg-start'> 
+            <h5>WordPress Nedir? SEO Dostu Bir İçerik Yönetim Sistemi</h5>
+          </Col>
+              
+          <Col className='col-12 col-lg-6 text-center text-lg-end'> 
+            <Breadcrumb className='d-flex justify-content-lg-end'>
+              <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+              <Breadcrumb.Item>/</Breadcrumb.Item>
+              <Breadcrumb.Item>WordPress Nedir? SEO Dostu Bir İçerik Yönetim Sistemi</Breadcrumb.Item>
+            </Breadcrumb>            
+          </Col>
         </Row>
 
         <Row className='mt-5'>
