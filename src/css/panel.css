@@ -1,0 +1,23 @@
+/*  Panel Anasayfa  */
+.anasayfa-icon {
+    background-color: #EFF2F7 !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*  Menü */
+.custom-accordion-body:hover {
+    color: #C0C2C4 !important;
+}
+
+.header-yazi{
+    text-decoration: none !important;
+}
+
+
+  

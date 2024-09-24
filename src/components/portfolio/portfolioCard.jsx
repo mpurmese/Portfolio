@@ -11,7 +11,7 @@ const PortfolioCard = () => {
   const [show, setShow] = useState(false);
 
   return (
-    <Container>
+    <Container fluid>
       <Row className='mt-5 grid'>
         <Col className='col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4'>
           <Card className='position-relative overflow-hidden portfolio-card' style={{ width: '24rem', height: '20rem' }}>

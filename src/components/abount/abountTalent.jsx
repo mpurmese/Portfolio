@@ -18,44 +18,12 @@ const AbountTalent = () => {
         <Row>
           <Col>
             <p>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />    
-            
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />    
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />    
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />    
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />    
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />    
-             
+            <ProgressBar now={now} label={`${now}%`} />         
           </Col>
 
           <Col>
             <p>HTML</p>
             <ProgressBar now={now} label={`${now}%`} />    
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />  
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />  
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />  
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />  
-
-            <p className='mt-3'>HTML</p>
-            <ProgressBar now={now} label={`${now}%`} />  
-             
           </Col>
         </Row>
       </Container>

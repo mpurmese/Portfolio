@@ -38,6 +38,13 @@ h1{
 }
 
 @media (max-width: 991px) { 
+  .panel-container-custom {
+    padding: 15px;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 991px) { 
   .container-custom {
     padding: 15px;
     height: 100vh;

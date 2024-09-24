@@ -1,49 +1,70 @@
 "use client"
 
+import Link from 'next/link';
 import React from 'react'
-import { Col, Container, DropdownButton,Dropdown, Nav, Navbar, Row, Button } from 'react-bootstrap'
-import { BsHouse, BsPersonSquare, BsBook, BsImages, BsFileEarmarkRichtext, BsEnvelopeAt    } from "react-icons/bs";
-
+import { Accordion, Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { BsHouse, BsPersonSquare, BsBook, BsImages, BsFileEarmarkRichtext, BsEnvelopeAt } from "react-icons/bs";
+import "@/css/panel.css";
 
 const PanelMenuComponent = () => {
   return (
-    <Navbar variant="dark mt-4 ms-3 ">
-      <Container fluid>
+    <Navbar variant="dark mt-4 ms-3">
+      <Container>
         <Row>
           <Col>
-              <Nav className="flex-column gap-3">
-              <div>
-                <Button variant="bg-custom text-light border-0" className="d-flex align-items-center fs-4">
-                  <BsHouse className="me-2" />
-                  Anasayfa
-                </Button>
-              </div>
+            <Nav className="flex-column gap-3">
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="1" className="custom-accordion-item">
+                  <Accordion.Header className="custom-accordion-header d-flex align-items-center ">
+                    <BsPersonSquare className="me-2" />
+                    <span className="fs-5">Hakkımda</span>
+                  </Accordion.Header>
+                  <Accordion.Body> <Link href="/panel/abount"className="custom-accordion-body text-decoration-none text-dark"> Hakkımda </Link> </Accordion.Body>
+                  <Accordion.Body> <Link href="/panel/talent"className="custom-accordion-body text-decoration-none text-dark"> Yetenekler </Link> </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
 
-                <DropdownButton variant="bg-custom text-light border-0" id="dropdown-basic-button" title={<span className='fs-4 align-middle'><BsPersonSquare className="me-2" /> Hakkımda </span>}>
-                <Dropdown.Item href="#/action-1">Düzenle</Dropdown.Item>
-                </DropdownButton>
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="2" className="custom-accordion-item">
+                  <Accordion.Header className="custom-accordion-header d-flex align-items-center">
+                    <BsFileEarmarkRichtext className="me-2" />
+                    <span className="fs-5">Cv</span>
+                  </Accordion.Header>
+                  <Accordion.Body> <Link href="/panel/resume"className="custom-accordion-body text-decoration-none text-dark"> Cv </Link> </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
 
-                <DropdownButton variant="bg-custom text-light border-0" id="dropdown-basic-button" title={<span className='fs-4 align-middle'><BsFileEarmarkRichtext className="me-2" /> Cv </span>}>
-                <Dropdown.Item href="#/action-1">Listele</Dropdown.Item>
-                <Dropdown.Item href="#/action-1">Cv Ekle</Dropdown.Item>
-                </DropdownButton>
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="3" className="custom-accordion-item">
+                  <Accordion.Header className="custom-accordion-header d-flex align-items-center">
+                    <BsImages className="me-2" />
+                    <span className="fs-5">Portfolio</span>
+                  </Accordion.Header>
+                  <Accordion.Body> <Link href="/panel/portfolio"className="custom-accordion-body text-decoration-none text-dark"> Portfolio </Link> </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
 
-                <DropdownButton variant="bg-custom text-light border-0" id="dropdown-basic-button" title={<span className='fs-4 align-middle'><BsImages className="me-2" /> Portfolio </span>}>
-                <Dropdown.Item href="#/action-1">Listele</Dropdown.Item>
-                <Dropdown.Item href="#/action-1">Portfolio Ekle</Dropdown.Item>
-                </DropdownButton>
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="4" className="custom-accordion-item">
+                  <Accordion.Header className="custom-accordion-header d-flex align-items-center">
+                    <BsBook className="me-2" />
+                    <span className="fs-5">Yazı</span>
+                  </Accordion.Header>
+                  <Accordion.Body className="custom-accordion-body">Yazı</Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
 
-                <DropdownButton variant="bg-custom text-light border-0" id="dropdown-basic-button" title={<span className='fs-4 align-middle'><BsBook className="me-2" /> Yazı </span>}>
-                <Dropdown.Item href="#/action-1">Listele</Dropdown.Item>
-                <Dropdown.Item href="#/action-1">Yazı Ekle</Dropdown.Item>
-                </DropdownButton>
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="5" className="custom-accordion-item">
+                  <Accordion.Header className="custom-accordion-header d-flex align-items-center">
+                    <BsEnvelopeAt className="me-2" />
+                    <span className="fs-5">İletişim</span>
+                  </Accordion.Header>
+                  <Accordion.Body className="custom-accordion-body">İletişim</Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
 
-                <DropdownButton variant="bg-custom text-light border-0" id="dropdown-basic-button" title={<span className='fs-4 align-middle'><BsEnvelopeAt className="me-2" /> İletişim </span>}>
-                <Dropdown.Item href="#/action-1">Mesajlar</Dropdown.Item>
-                <Dropdown.Item href="#/action-1">Düzenle</Dropdown.Item>
-                </DropdownButton>
-
-              </Nav>
+            </Nav>
           </Col>
         </Row>
       </Container>
@@ -51,4 +72,4 @@ const PanelMenuComponent = () => {
   )
 }
 
-export default PanelMenuComponent
+export default PanelMenuComponent;
