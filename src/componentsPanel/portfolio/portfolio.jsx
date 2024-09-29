@@ -1,8 +1,16 @@
 import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import PanelPortfolioTableComponent from './table'
 
 const PanelPortfolioComponent = () => {
   return (
-    <div>PanelPortfolioComponent</div>
+    <Container fluid className='panel-container-custom'> 
+      <Row>
+          <Col>
+            <PanelPortfolioTableComponent/>
+          </Col>
+      </Row>
+    </Container>
   )
 }
 

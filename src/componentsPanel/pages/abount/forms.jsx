@@ -5,9 +5,9 @@ import { Button, Col, Container,Row } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-const PanelFormsComponent = () => {
+const PanelAbountFormsComponent = () => {
   return (
-    <Container >
+    <Container fluid >
 
         <Row className='bg-white mt-5 mt-lg-4 shadow border'>
             <Col className='col-12 col-lg-6 mt-4  '>
@@ -106,4 +106,4 @@ const PanelFormsComponent = () => {
   )
 }
 
-export default PanelFormsComponent
+export default PanelAbountFormsComponent

@@ -2,8 +2,8 @@
 
 import Link from 'next/link';
 import React from 'react'
-import { Accordion, Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
-import { BsHouse, BsPersonSquare, BsBook, BsImages, BsFileEarmarkRichtext, BsEnvelopeAt } from "react-icons/bs";
+import { Accordion, Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
+import { BsFillBuildingFill , BsPersonSquare, BsBook, BsImages, BsFileEarmarkRichtext, BsEnvelopeAt,BsPersonVcard  } from "react-icons/bs";
 import "@/css/panel.css";
 
 const PanelMenuComponent = () => {
@@ -12,14 +12,23 @@ const PanelMenuComponent = () => {
       <Container>
         <Row>
           <Col>
-            <Nav className="flex-column gap-3">
+            <Nav className="panel-custom-nav flex-column gap-3">
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="1" className="custom-accordion-item">
+                  <Accordion.Header className="custom-accordion-header d-flex align-items-center ">
+                    <BsPersonVcard className="me-2" />
+                    <span className="fs-5">Profil</span>
+                  </Accordion.Header>
+                  <Accordion.Body> <Link href="/panel/profile"className="custom-accordion-body text-decoration-none text-dark"> Profil </Link> </Accordion.Body>
+                </Accordion.Item>
+              </Accordion>
+
               <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="1" className="custom-accordion-item">
                   <Accordion.Header className="custom-accordion-header d-flex align-items-center ">
                     <BsPersonSquare className="me-2" />
                     <span className="fs-5">Hakkımda</span>
                   </Accordion.Header>
-                  <Accordion.Body> <Link href="/panel/abount"className="custom-accordion-body text-decoration-none text-dark"> Hakkımda </Link> </Accordion.Body>
                   <Accordion.Body> <Link href="/panel/talent"className="custom-accordion-body text-decoration-none text-dark"> Yetenekler </Link> </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -48,10 +57,24 @@ const PanelMenuComponent = () => {
                 <Accordion.Item eventKey="4" className="custom-accordion-item">
                   <Accordion.Header className="custom-accordion-header d-flex align-items-center">
                     <BsBook className="me-2" />
-                    <span className="fs-5">Yazı</span>
-                  </Accordion.Header>
-                  <Accordion.Body className="custom-accordion-body">Yazı</Accordion.Body>
+                      <span className="fs-5">Yazı</span>
+                    </Accordion.Header>
+                      <Accordion.Body> <Link href="/panel/articles"className="custom-accordion-body text-decoration-none text-dark"> Yazı </Link> </Accordion.Body>
                 </Accordion.Item>
+              </Accordion>
+
+              <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="4" className="custom-accordion-item">
+                  <Accordion.Header className="custom-accordion-header d-flex align-items-center">
+                    <BsFillBuildingFill  className="me-2" />
+                      <span className="fs-5">Sayfalar</span>
+                    </Accordion.Header>
+                      <Accordion.Body> <Link href="/panel/pages/home"className="custom-accordion-body text-decoration-none text-dark"> Anasayfa </Link> </Accordion.Body>
+                      <Accordion.Body> <Link href="/panel/pages/abount"className="custom-accordion-body text-decoration-none text-dark"> Hakkımda </Link> </Accordion.Body>
+                      <Accordion.Body> <Link href="/panel/pages/portfolyo"className="custom-accordion-body text-decoration-none text-dark"> Portfolyo </Link> </Accordion.Body>
+                      <Accordion.Body> <Link href="/panel/pages/articles"className="custom-accordion-body text-decoration-none text-dark"> Yazılar </Link> </Accordion.Body>
+                      <Accordion.Body> <Link href="/panel/pages/contact"className="custom-accordion-body text-decoration-none text-dark"> İletişim </Link> </Accordion.Body>
+                      </Accordion.Item>
               </Accordion>
 
               <Accordion defaultActiveKey="0">
@@ -60,8 +83,8 @@ const PanelMenuComponent = () => {
                     <BsEnvelopeAt className="me-2" />
                     <span className="fs-5">İletişim</span>
                   </Accordion.Header>
-                  <Accordion.Body className="custom-accordion-body">İletişim</Accordion.Body>
-                </Accordion.Item>
+                  <Accordion.Body> <Link href="/panel/contact"className="custom-accordion-body text-decoration-none text-dark"> İletişim </Link> </Accordion.Body>
+                  </Accordion.Item>
               </Accordion>
 
             </Nav>
