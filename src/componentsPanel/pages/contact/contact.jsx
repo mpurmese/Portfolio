@@ -1,14 +1,14 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import PanelAbountFormsComponent from './forms'
+import PanelPageContactFormsComponent from './forms'
 import SeoModule from '@/componentsPanel/seoModule/seoModule'
 
-const PanelAbountComponent = () => {
+const PanelPageFormsComponent = () => {
   return (
-    <Container fluid className='panel-container-custom' > 
+    <Container fluid className='panel-container-custom'>
         <Row>
             <Col>
-                <PanelAbountFormsComponent/>
+                <PanelPageContactFormsComponent/>
             </Col>
         </Row>
 
@@ -21,4 +21,4 @@ const PanelAbountComponent = () => {
   )
 }
 
-export default PanelAbountComponent
+export default PanelPageFormsComponent
