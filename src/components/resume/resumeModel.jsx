@@ -14,8 +14,7 @@ const ResumeModel = () => {
                         <div className="timeline-content">
                         <h4>Mehmet Pürmeşe</h4>
                         <p>İstanbul / Maltepe</p>
-                        <p> Yazılım öğrenmeye yeni başlayan bir geliştirici olarak hem frontend hem de backend alanında uzmanlaşmaya çalışıyorum. Bu süreci tamamen kendi başıma 
-                            yürütüyorum çünkü bir işi alaylı olarak öğrenmenin daha değerli olduğuna inanıyorum. Ayrıca, WordPress alanında oldukça yetkinim.</p>
+                        <p>Yazılım öğrenmeye yeni başlayan bir geliştirici olarak hem frontend hem de backend alanında uzmanlaşmaya çalışıyorum.</p>
                         <ul>
                             <li>mpurmese@yandex.com</li>
                         </ul>

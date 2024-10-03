@@ -19,7 +19,9 @@ const YaziDetailComponent = () => {
           <Col className='col-12 col-lg-6 text-center text-lg-end'> 
             <Breadcrumb className='d-flex justify-content-lg-end'>
               <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-              <Breadcrumb.Item>/</Breadcrumb.Item>
+              <Breadcrumb.Item>
+                <span>/</span>
+              </Breadcrumb.Item>
               <Breadcrumb.Item>WordPress Nedir? SEO Dostu Bir İçerik Yönetim Sistemi</Breadcrumb.Item>
             </Breadcrumb>            
           </Col>
