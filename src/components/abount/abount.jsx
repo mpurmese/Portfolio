@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import AbountImage from './abountImage'
 import AbountTexts from './abountTexts'
 import AbountIcons from './abountIcons'
-import AbountTalent from './AbountTalent'
+import AbountTalent from './abountTalent'
 
 const AbountComponent = () => {
   return (
