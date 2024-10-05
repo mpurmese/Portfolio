@@ -4,7 +4,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 
-const AbountTalent = () => {
+const AbountTalentComponent = () => {
   const now = 60;
 
   return (
@@ -31,4 +31,4 @@ const AbountTalent = () => {
   )
 }
 
-export default AbountTalent
+export default AbountTalentComponent
