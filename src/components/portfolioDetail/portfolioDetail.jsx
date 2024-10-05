@@ -19,7 +19,7 @@ const PortfoloDetailComponent = () => {
   return (
     <Container fluid className='container-custom'>
       {/* Başlık ve Breadcrumb kısmı */}
-      <Row className='bg-dark deneme text-light py-3'>
+      <Row className='bg-dark text-light py-3'>
         <Col className='col-12 col-lg-6 text-center text-lg-start'> 
           <h5>Hasat Zamanı Detay</h5>
         </Col>
