@@ -26,4 +26,8 @@ color: #149DDD !important;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+a{
+text-decoration: none;
+color: black;
+}
   

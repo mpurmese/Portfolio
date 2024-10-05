@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 const ContactForm = () => {
   return (
-    <Container>
+    <Container fluid>
         <Row>
             <Col className='p-4 border shadow mb-5 bg-white '>
                 <Form>

@@ -4,7 +4,7 @@ import "@/css/resume.css"
 
 const ResumeModel = () => {
   return (
-    <Container>
+    <Container fluid>
         <Row className='mt-5'>
             <Col className='col-12 col-md-6'>
                 <div className="resume-model">

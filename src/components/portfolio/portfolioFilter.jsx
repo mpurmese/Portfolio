@@ -5,7 +5,7 @@ import "@/css/portfolio.css";
 
 const PortfolioFilter = () => {
   return (
-    <Container>
+    <Container fluid>
         <Row>
             <Col className='text-center mt-4'>
             <ButtonGroup aria-label="Basic example" >

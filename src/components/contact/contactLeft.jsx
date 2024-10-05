@@ -7,7 +7,7 @@ import { BsCodeSquare } from "react-icons/bs";
 
 const ContactLeft = () => {
   return (
-    <Container>
+    <Container fluid>
     <Row>
         <Col className='p-4 border shadow mb-5 bg-white text-center fs-1'>
            <BsCodeSquare/>

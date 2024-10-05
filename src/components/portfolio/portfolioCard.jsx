@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { BsZoomIn, BsLink45Deg } from "react-icons/bs";
 import "@/css/portfolio.css";
+import Link from 'next/link';
 
 const PortfolioCard = () => {
   const [show, setShow] = useState(false);
@@ -23,7 +24,7 @@ const PortfolioCard = () => {
               <div className=' text-light position-absolute top-0 start-0 m-3 bg-custom3 p-1'>Hasat Zamanı</div>
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <BsZoomIn className="fs-2 me-3 text-light position-absolute zoom " onClick={() => setShow(true)} />
-                <BsLink45Deg className="fs-2 text-light position-absolute link" />
+                <Link href="portfolio-detail/1"> <BsLink45Deg className="fs-2 text-light position-absolute link" /> </Link> 
               </div>
               <div className="fw-bold text-light mb-3">E-Ticaret</div>
             </div>
@@ -56,8 +57,8 @@ const PortfolioCard = () => {
               <div className=' text-light position-absolute top-0 start-0 m-3 bg-custom3 p-1'>Hasat Zamanı</div>
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <BsZoomIn className="fs-2 me-3 text-light position-absolute zoom " onClick={() => setShow(true)} />
-                <BsLink45Deg className="fs-2 text-light position-absolute link" />
-              </div>
+                <Link href="portfolio-detail/1"> <BsLink45Deg className="fs-2 text-light position-absolute link" /> </Link> 
+                </div>
               <div className="fw-bold text-light mb-3">E-Ticaret</div>
             </div>
           </Card>
@@ -89,8 +90,8 @@ const PortfolioCard = () => {
               <div className=' text-light position-absolute top-0 start-0 m-3 bg-custom3 p-1'>Hasat Zamanı</div>
               <div className="d-flex justify-content-center align-items-center mb-3">
                 <BsZoomIn className="fs-2 me-3 text-light position-absolute zoom " onClick={() => setShow(true)} />
-                <BsLink45Deg className="fs-2 text-light position-absolute link" />
-              </div>
+                <Link href="portfolio-detail/1"> <BsLink45Deg className="fs-2 text-light position-absolute link" /> </Link> 
+                </div>
               <div className="fw-bold text-light mb-3">E-Ticaret</div>
             </div>
           </Card>

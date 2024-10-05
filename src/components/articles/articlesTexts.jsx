@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const ArticlesTexts = () => {
   return (
-    <Container>
+    <Container fluid>
         <Row>
             <Col>
                 <p>Burada, yazılım hakkında size kısa öğretici bilgiler vereceğim.</p>
