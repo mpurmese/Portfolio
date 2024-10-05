@@ -31,19 +31,6 @@ h1{
   height: 100vh;
 }
 
-.panel-container-custom{
-  padding-left: 17.4%;
-  height: 100vh;
-  background-color:#FAFAFA ;
-}
-
-@media (max-width: 991px) { 
-  .panel-container-custom {
-    padding: 15px;
-    height: 100vh;
-  }
-}
-
 @media (max-width: 991px) { 
   .container-custom {
     padding: 15px;

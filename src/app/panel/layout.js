@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
     return (
       <html lang="en">
         <body>  
-            <PanelHeaderComponent/>
             {children}
         </body>
       </html>
